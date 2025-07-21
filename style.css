@@ -34,6 +34,7 @@ header nav ul {
 
 header nav ul li {
     list-style: none;
+    cursor: pointer;
 }
 
 
@@ -75,4 +76,38 @@ main .about-main .about-content {
 
 main .about-main img {
     width: 40%;
+}
+
+main .services-section {
+    margin: 50px 0;
+}
+
+main .services-section h1 {
+    text-align: center;
+}
+
+main .services-section .services-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+
+main .services-section .services-main .service {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 20%;
+    text-align: center;
+    align-items: center;
+
+}
+
+main .services-section .services-main .service img {
+    width: 200px;
+    border-radius: 50%;
+    object-fit: contain;
+    object-position: center;
+
 }
