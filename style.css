@@ -53,3 +53,26 @@ main .background h1 span,
 main .background h2 span {
     color: #2721C5;
 }
+
+main .about {
+    margin-top: 50px;
+}
+
+main .about h1 {
+    text-align: center;
+}
+
+main .about-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 70px;
+    width: 100%;
+}
+
+main .about-main .about-content {
+    width: 36%;
+}
+
+main .about-main img {
+    width: 40%;
+}
